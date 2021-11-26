@@ -16,7 +16,8 @@ public class Main {
 		String fichierLecture = args[0];
 		FileReader entree = new FileReader(fichierLecture);
 
-		int c;StringBuilder chars = new StringBuilder();
+		int c;
+		StringBuilder chars = new StringBuilder();
 		
 		while((c = entree.read()) != -1) {
 			chars.append(Character.toString(c));
